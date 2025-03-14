@@ -1,21 +1,23 @@
-Features:
-Blockchain Data Explorer:
+# Web3 Explorer - SocialFi Edition
 
-Users can search for Ethereum wallet addresses.
-Display transaction history, including smart contract interactions and token transfers.
-Explore NFTs owned by the wallet.
-View wallet balance (ETH and tokens).
-SocialFi Integration:
+This is a decentralized application (dApp) built for the SocialFi theme. It allows users to explore Ethereum blockchain data, view wallet transactions, and interact with decentralized social features.
 
-Users can connect their wallet to view decentralized social interactions (e.g., following other wallets, liking/depositing in decentralized social pools).
-View a social feed of wallet interactions with decentralized applications (e.g., DeFi pools, NFTs, etc.).
-Web3 Interaction:
+### Features:
+- Connect to MetaMask
+- View wallet balances and transaction history
+- Explore NFTs and token transfers
+- SocialFi features like following wallets and displaying social feeds
 
-Connect with Ethereum through MetaMask.
-Interact with smart contracts to query data.
-Display events triggered by dApp activities.
-User Interface:
+### Tech Stack:
+- React
+- Web3.js or Ethers.js
+- Tailwind CSS
+- MetaMask for wallet interaction
 
-Simple, user-friendly interface that enables users to explore blockchain data.
-Display wallet balances, transaction histories, and interactions with smart contracts.
-A SocialFi feed that shows wallet activities, like staking, following, etc.
+### How to Run:
+1. Clone this repo
+2. Install dependencies: `npm install`
+3. Start the app: `npm start`
+
+### License:
+This project is licensed under the MIT License.
